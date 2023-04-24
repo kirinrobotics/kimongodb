@@ -24,7 +24,7 @@ Installation
 
 This tutorial installs MongoDB 6.0 Community Edition. To install a different version of MongoDB Community, use the version drop-down menu on this [document](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/).
 
-Clone repo and install MongoDB and requirements.txt in a Python >=3.7 environment.
+Clone the repository and install MongoDB and requirements.txt in a Python >=3.7 environment.
 
 ```bash
 git clone https://github.com/kirinslab/kimongodb.git
