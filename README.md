@@ -17,7 +17,7 @@ Table of contents
 
 Introduction
 ============
-MongoDB is a popular NoSQL database that offers flexibility and scalability, but it can be difficult to work with due to its complex query language and lack of a clear schema. Pymongo was created to address the challenges that developers face when working with MongoDB databases. Kimongodb is a document that teaches you how to install and use data queries using the Pymongo library.
+MongoDB is a popular NoSQL database that offers flexibility and scalability. Still, it can be challenging due to its complex query language and lack of an explicit schema. Pymongo was created to address developers' challenges when working with MongoDB databases. Kimongodb is a document that shows you how to install and use data queries using the Pymongo library.
 
 Installation
 ============
