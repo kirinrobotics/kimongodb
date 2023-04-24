@@ -1,0 +1,4 @@
+# Kimongodb requirements
+# Usage: pip install -r requirements.txt
+
+pymongo>=4.3.3

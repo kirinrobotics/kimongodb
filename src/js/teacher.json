@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "1",
+    "name": "John Doe",
+    "gender": "male",
+    "department": "Math",
+    "years_of_experience": 5
+  },
+  {
+    "_id": "2",
+    "name": "Jane Smith",
+    "gender": "female",
+    "department": "Science",
+    "years_of_experience": 8
+  },
+  {
+    "_id": "3",
+    "name": "Bob Johnson",
+    "gender": "male",
+    "department": "History",
+    "years_of_experience": 3
+  },
+  {
+    "_id": "4",
+    "name": "Alice Lee",
+    "gender": "female",
+    "department": "English",
+    "years_of_experience": 10
+  },
+  {
+    "_id": "5",
+    "name": "Peter Brown",
+    "gender": "male",
+    "department": "Art",
+    "years_of_experience": 2
+  },
+  {
+    "_id": "6",
+    "name": "Samantha Green",
+    "gender": "female",
+    "department": "Physical Education",
+    "years_of_experience": 6
+  },
+  {
+    "_id": "7",
+    "name": "David Kim",
+    "gender": "male",
+    "department": "Music",
+    "years_of_experience": 4
+  },
+  {
+    "_id": "8",
+    "name": "Emily Davis",
+    "gender": "female",
+    "department": "Social Studies",
+    "years_of_experience": 7
+  },
+  {
+    "_id": "9",
+    "name": "Michael Johnson",
+    "gender": "male",
+    "department": "Computer Science",
+    "years_of_experience": 1
+  },
+  {
+    "_id": "10",
+    "name": "Rachel Martinez",
+    "gender": "female",
+    "department": "Foreign Language",
+    "years_of_experience": 9
+  }
+]
