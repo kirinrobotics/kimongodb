@@ -1,0 +1,39 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Cedric",
+        "gender": "male",
+        "major": "Mechatronics",
+        "gpa": 3.1
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "gender": "male",
+        "major": "Electrical Engineering",
+        "gpa": 3.0
+      },
+      {
+        "id": 3,
+        "name": "Charlie",
+        "gender": "male",
+        "major": "Psychology",
+        "gpa": 3.2
+      },
+      {
+        "id": 4,
+        "name": "David",
+        "gender": "male",
+        "major": "Biology",
+        "gpa": 3.7
+      },
+      {
+        "id": 5,
+        "name": "Alice",
+        "gender": "female",
+        "major": "Computer Science",
+        "gpa": 3.5
+      }
+    ]
+  }
