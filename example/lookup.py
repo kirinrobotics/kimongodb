@@ -9,32 +9,35 @@ class MongoEncoder(json.JSONEncoder):
             return str(o)
         return json.JSONEncoder.default(self, o)
 
-ip_adress = '192.168.1.139'
+ip_address = '127.0.0.1'
 port = '27017'
 
 # Connect to MongoDB
-client = MongoClient(f'mongodb://{ip_adress}:{port}/')
+client = MongoClient(f'mongodb://{ip_address}:{port}/')
 
-# Access the "gimbal" collection in the "kirins" database
-db = client['kirins']
-gimbal_collection = db["Gimbal"]
-gimbal_advance_collection = db["Gimbal Advance"]
+# Access the "users" and "orders" collections in the "mydatabase" database
+db = client["mydatabase"]
+users_collection = db["users"]
+orders_collection = db["orders"]
 
 # Define the pipeline for the aggregation query
 pipeline = [
     {
         "$lookup": {
-            "from": "Gimbal Advance",
-            "localField": "gimbal_type",
-            "foreignField": "type",
-            "as": "gimbal_data"
+            "from": "orders",
+            "localField": "_id",
+            "foreignField": "user_id",
+            "as": "orders"
         }
+    },
+    {
+        "$sort": {"_id": 1}
     }
 ]
 
 # Execute the aggregation query and convert the results to a list
-results = list(gimbal_collection.aggregate(pipeline))
+results = list(users_collection.aggregate(pipeline))
 
 # Write the results to a JSON file using the custom encoder
-with open("kimongodb/gimbal_data.json", "w") as f:
+with open("mongodb/users_with_orders.json", "w") as f:
     json.dump(results, f, cls=MongoEncoder, indent=4)
