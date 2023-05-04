@@ -33,5 +33,5 @@ sudo systemctl enable mongod
 
 # Install MongoDB Compass
 https://downloads.mongodb.com/compass/mongodb-compass_1.36.3_amd64.deb
-cd Downloads
+cd ~/Downloads
 sudo dpkg -i mongodb-compass_1.36.3_amd64.deb
